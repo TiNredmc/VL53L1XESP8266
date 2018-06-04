@@ -50,8 +50,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 VL53L1_Dev_t                   dev;
 VL53L1_DEV                     Dev = &dev;
 int status;
-const char *ssid = "ESP8266TLh";
-const char *password = "TinLethax";
+const char *ssid = "yourssid";
+const char *password = "yourpassword";
 int distance = 0 ;
 String page = "";
 String text = "";
